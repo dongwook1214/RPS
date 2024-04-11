@@ -10,7 +10,7 @@ import MakePage from './components/make/makePage';
 
 function App() {
     const { sdk, connected, connecting, provider, chainId, account } = useSDK();
-    const desiredChainId = '0x13881';
+    const desiredChainId = '0x89';
 
     useEffect(() => {
         if (connected && account) {
