@@ -32,7 +32,7 @@ const GameList = () => {
             setGames(gameInfoList);
         }
         fetchGames();
-    }, []);
+    }, [chainId, account]);
 
     return (
         <div className={' w-full overflow-y-scroll'}>
